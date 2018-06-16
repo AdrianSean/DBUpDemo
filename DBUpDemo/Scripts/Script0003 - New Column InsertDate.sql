@@ -1,0 +1,2 @@
+ALTER TABLE CONFIG
+	ADD InsertDate DateTime DEFAULT(getdate()) NOT NULL
